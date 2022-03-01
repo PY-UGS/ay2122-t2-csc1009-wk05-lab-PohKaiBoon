@@ -1,7 +1,6 @@
-public class Circle extends Shape {
+public class Ellipse extends Shape {
     
-
-    public Circle(double dim1, double dim2) {
+    public Ellipse(double dim1, double dim2) {
 
         super(dim1,dim2);
     }
@@ -11,5 +10,4 @@ public class Circle extends Shape {
         return super.getDim1()*super.getDim2()*super.getPI();
 
     }
-
 }
